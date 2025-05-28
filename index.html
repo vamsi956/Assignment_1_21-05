@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Table Task</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+
+    table {
+      margin: 30px 0;
+      width: 60%;
+    }
+
+    th {
+      font-weight: bold;
+    }
+
+    .simple-table {
+      border-collapse: collapse;
+    }
+
+    .simple-table th,
+    .simple-table td {
+      background-color: #69c8e0;
+      border: 1px solid black;
+      padding: 10px;
+      text-align: left;
+    }
+
+    .rounded-table {
+      border-collapse: separate;
+      border-spacing: 5px;
+    }
+
+    .rounded-table th,
+    .rounded-table td {
+      background-color: #62d2e4;
+      border: 1px solid black;
+      border-radius: 12px;
+      padding: 10px;
+      text-align: left;
+    }
+  </style>
+</head>
+<body>
+
+  <table class="simple-table">
+    <tr>
+      <th>Firstname</th>
+      <th>Lastname</th>
+      <th>Age</th>
+    </tr>
+    <tr>
+      <td>Jill</td>
+      <td>Smith</td>
+      <td>50</td>
+    </tr>
+    <tr>
+      <td>Eve</td>
+      <td>Jackson</td>
+      <td>94</td>
+    </tr>
+    <tr>
+      <td>John</td>
+      <td>Doe</td>
+      <td>80</td>
+    </tr>
+  </table>
+
+  <table class="rounded-table">
+    <tr>
+      <th>Firstname</th>
+      <th>Lastname</th>
+      <th>Age</th>
+    </tr>
+    <tr>
+      <td>Jill</td>
+      <td>Smith</td>
+      <td>50</td>
+    </tr>
+    <tr>
+      <td>Eve</td>
+      <td>Jackson</td>
+      <td>94</td>
+    </tr>
+    <tr>
+      <td>John</td>
+      <td>Doe</td>
+      <td>80</td>
+    </tr>
+  </table>
+
+</body>
+</html>
